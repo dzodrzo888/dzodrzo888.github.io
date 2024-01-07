@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="google.css">
+    </head>
+    <body>
+        <div class="container top-right-link">
+            <a href = "images.html">Google Images</a>
+            <a href = "index.html" style="margin-left: 10px;">Google Search</a>
+        </div>
+        <label class="Google-advanced-logo">
+            <span class="blue">G</span>
+            <span class="red">o</span>
+            <span class="yellow">o</span>
+            <span class="blue">g</span>
+            <span class="green">l</span>
+            <span class="red">e</span>
+        </label>
+        <label class="Google-advanced">
+            <span class="red">Advanced Search</span>
+        <form id="search-form" class="form" action="https://google.com/search">         
+            <div class="container_advanced">
+                <label>all these words: </label>
+                <input type="text" name="as_q" class="jfk-textinput">
+                <label class="label-right">Enter important words: tricolor rat terrier</label>
+            </div>
+            <div class="container_advanced">
+                <label>exactly this word or phrase:</label>
+                <input type="text" name="as_epq" class="jfk-textinput">
+                <label class="label-right">Enter the exact words in quotation marks: "rat terrier"</label>
+            </div>
+            <div class="container_advanced">
+                <label>any of these words:</label>
+                <input type="text" name="as_oq" class="jfk-textinput">
+                <label class="label-right">Insert the OR operator between all required words : miniature OR standard</label>
+            </div>
+            <div class="container_advanced">
+                <label>none of these words:</label>
+                <input type="text" name="as_eq" class="jfk-textinput">
+                <label class="label-right">Put a minus sign before the words you don't want: -rodent, -"Jack Russell"</label>
+            </div>
+        </form>
+        <input class = "jfk-button-action" name = "btnK" type="submit" value="Advanced Search"> 
+    </body>

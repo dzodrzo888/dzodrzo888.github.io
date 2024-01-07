@@ -6,7 +6,7 @@
     </head>
     <body>
         <div class="container top-right-link">
-            <a href = "images.html">Google Images</a>
+            <a href = "index.html">Google Search</a>
             <a href = "advanced.html" style="margin-left: 10px;">Google Advanced</a>
         </div>
         <label class="Google">
@@ -18,11 +18,10 @@
             <span class="red">e</span>
         </label>
             <form id="search-form" action="https://google.com/search">
+            <div class="input-container">
                 <input type="text" name="q" id="q">
-                <div class="container">
-                    <input class = "btn1 q" name = "btnK" id="q" type="submit" value="Google Search">
-                    <input class = "btn2 q" name="btnI" id="q" type="submit" value="I am feeling lucky" formaction="https://google.com/search?&btnI=1">
-                </div>
+                <input type="hidden" name="tbm" value="isch">
+                <input class = "btn1 q" name = "btnK" id="q" type="submit" value="Google Search">
+            </div>
             </form>
     </body>
-
