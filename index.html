@@ -5,14 +5,20 @@
         <link rel="stylesheet" href="google.css">
     </head>
     <body>
-        <input type="text" name="q">
-        <div class="form-container">
-            <form action="https://google.com/search">
-                <input type="submit" value="Google Search">
+        <label class="Google">
+            <span class="blue">G</span>
+            <span class="red">o</span>
+            <span class="yellow">o</span>
+            <span class="blue">g</span>
+            <span class="green">l</span>
+            <span class="red">e</span>
+        </label>
+            <form id="search-form" action="https://google.com/search">
+                <input type="text" name="q">
+                <div class="container">
+                    <input class = "btn1" name = "btnK" type="submit" value="Google Search">
+                    <input class = "btn2" name="btnI" type="submit" value="I am feeling lucky" formaction="https://google.com/search?&btnI=1">
+                </div>
             </form>
-            <form action="https://google.com">
-                <input type="submit" value="I am feeling lucky" name="lucky">
-            </form>
-        </div>
     </body>
-</html>
+
