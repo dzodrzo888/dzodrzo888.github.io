@@ -11,14 +11,36 @@ input[type="text"] {
   height: 35px;
   margin-bottom: 10px;
   display: block;
-  border-radius: 30px;
+  border-radius: 20px;
   font-size: 25px;
   padding-left: 10px;
 }
 
 input[type="submit"] {
-  width: 100px;
+  width: 130px;
+  margin-left: 20px;
   display: block;
-  margin-left: 180px;
   margin-top: 20px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  color: #3c4043;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 0 16px;
+  line-height:27px;
+  height: 36px;
+  text-align: center;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
